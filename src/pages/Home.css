@@ -1,0 +1,28 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+    background-color: darkgray; /* Light background color */
+  }
+  
+  .home-links {
+    margin-top: 20px;
+  }
+  
+  .home-link {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    color: white;
+    background-color: black; /* Bootstrap primary color */
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .home-link:hover {
+    background-color: #5d5d5d; /* Darker shade for hover effect */
+    color: white;
+  }
